@@ -1,0 +1,22 @@
+    .comboxme .dropdown-menu .no-results {
+        display: none !important;
+    }
+    .comboxme .dropdown-menu {
+        top: unset !important;
+        bottom: unset !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        border: 0 !important;
+    }
+    .comboxme .bs-searchbox {
+        padding: 0 !important;
+        margin: 0 !important;
+        border: 0 !important;
+    }
+    .comboxme .btn {
+        background-color: white;
+        color: blue;
+    }
+    .comboxme .bs-caret {
+        color: white;
+    }
