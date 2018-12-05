@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<!-- Latest compiled and minified CSS -->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>   
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="comboxme.css" >
+<link rel="stylesheet" href=" "  >
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.csss" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.js"></script>
+<script src="comboxme.js"></script>
+</head>
+<body>
+
+<script>
+        $('.selectpicker').selectpicker({
+            style: 'btn-info',
+            selectOnTab: true,
+            size: 6
+        });
+</script>
+
+<form>
+<select data-width="280px" data-live-search="true" class="comboxme form-control" data-val="true" 
+data-val-required="The Status field is required." id="Status" name="Status">
+<option value="1">Colorado</option>
+<option value="2">Connecticut</option>
+<option value="3">Delaware</option>
+<option value="4">Florida</option>
+<option value="6">Georgia</option>
+<option value="7">Kentucky</option>
+</select>
+</form>
